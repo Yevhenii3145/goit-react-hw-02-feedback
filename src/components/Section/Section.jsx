@@ -1,10 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types';
-import './Feedback.css'
+import styles from './Sextion.module.css'
 
 const Section = ({ title, children }) => (
-        <section>
-        <h2>{title}</h2> 
+        <section className={styles.boxApp}>
+        <h2 className={styles.titleApp}>{title}</h2> 
         {children}
         </section>
     )
