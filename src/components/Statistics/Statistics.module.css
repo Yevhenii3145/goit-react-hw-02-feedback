@@ -23,6 +23,10 @@
     justify-content: center;
 
 }
+.goodFeedback:hover,
+.goodFeedback:hover {
+    scale: 1.4;
+}
 .neutralFeedback {
     color: green;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -38,6 +42,10 @@
     position: absolute;
     left: 47%;
     top: 10%;
+}
+.neutralFeedback:hover,
+.neutralFeedback:focus {
+    scale: 1.4;
 }
 .badFeedback {
     color: brown;
@@ -55,6 +63,10 @@
     display: flex;
     justify-content: center;
 
+}
+.badFeedback:hover,
+.badFeedback:focus {
+    scale: 1.4;
 }
 .cauntFeedback {
     color: blueviolet;

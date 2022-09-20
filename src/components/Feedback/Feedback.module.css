@@ -13,6 +13,7 @@
     border-radius: 4px;
     font-weight: 700;
 }
+
 .feedbackButton:first-child {
     background-color: gold;
     color:blue
@@ -22,4 +23,9 @@
 }
 .feedbackButton:nth-child(2) {
     color: green;
+}
+.feedbackButton:hover,
+.feedbackButton:focus {
+    background-color: aqua;
+    scale: 1.2;
 }
