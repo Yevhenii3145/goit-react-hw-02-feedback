@@ -9,6 +9,7 @@ class App extends Component {
         good: 0,
         neutral: 0,
         bad: 0,
+        keys: ["good","neutral","bad"]
   }
   
   makeFeedback = (event) => {
@@ -32,13 +33,13 @@ class App extends Component {
         return Number(result.toFixed(0));
     }
   render() {
-    const { good, neutral, bad } = this.state; 
+    const { good, neutral, bad, keys  } = this.state; 
     const total = this.countTotalFeedback();
     const positivProcentage = this.countPositiveFeedbackPercentage();
   return (
     <>
       <Section title={"Pleas leave feedback"}>
-        <FeedbackOptions onLeaveFeedback={this.makeFeedback} />
+        <FeedbackOptions options={keys} onLeaveFeedback={this.makeFeedback} />
         {!total ? <Notification /> : <Statistics good={good} neutral={neutral} bad={bad} total={total} positivProcentage={positivProcentage} />}   
         </Section>
       </>

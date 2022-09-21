@@ -12,11 +12,13 @@
     border: 1px solid blue;
     border-radius: 4px;
     font-weight: 700;
+    text-transform: capitalize;
 }
 
 .feedbackButton:first-child {
     background-color: gold;
-    color:blue
+    color:blue;
+    
 }
 .feedbackButton:last-child {
     background-color: brown;

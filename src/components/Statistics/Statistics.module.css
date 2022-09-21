@@ -11,7 +11,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 700;
     margin-left: 40px;
-    display: inline-block;
+
 
     height: 50px;
     width: 80px;
@@ -30,7 +30,8 @@
 .neutralFeedback {
     color: green;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    display: inline-block;
+    /* font-weight: 700; */
+
     margin-bottom: 40px;
     align-items: center;
     display: flex;
@@ -51,7 +52,8 @@
     color: brown;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 450px;
-    display: inline-block;
+    /* font-weight: 700; */
+
     position: absolute;
     right: 3%;
     top: 10%;
